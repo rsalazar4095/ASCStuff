@@ -17,18 +17,19 @@ console.log(Seller_fee) ;
 const Total_profit = Selling_Price - Seller_fee - Cost
 
 let x = 10 ;
-x = x + 2 ;
-x = x + x ;
+x = x + 2 ;// x is equal to the current value plus 2
+x = x + x ;// then x is equal to the new value plus the new value 12 + 12 = 24
 console.log(x) ;
 
 let pizza = 5 ;
 let burger = 10 ;
-burger = pizza ;
-pizza++ ;
-burger-- ;
-pizza /= 2 ;
+burger = pizza ;// burger equal the value of pizza 
+pizza++ ;//5+1 = 6 
+burger-- ;//5 -1 =4
+pizza /= 2 ; // 6/2 =3
 console.log(pizza) ;
 console.log (burger) ;
+
 
 
 
